@@ -1,0 +1,8 @@
+.text-title{
+    border-top: 5px solid rgba(128, 128, 128, 0.373);
+    border-bottom: 5px solid rgba(128, 128, 128, 0.373);
+}
+
+.text-gold{
+    color: #D99904;
+}

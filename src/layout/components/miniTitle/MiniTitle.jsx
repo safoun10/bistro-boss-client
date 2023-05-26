@@ -3,7 +3,7 @@ import "./MiniTitle.css";
 
 const MiniTitle = ({ time, text }) => {
 	return (
-		<div className="w-50 mx-auto">
+		<div className="w-50 mini-title-container mx-auto">
 			<div className="text-center text-gold d-flex justify-content-center align-items-center">
 				-----------
 				<span className="px-2 fst-italic py-3 fs-5">{time}</span>

@@ -1,12 +1,21 @@
-.text-title{
+.text-title {
     border-top: 5px solid rgba(128, 128, 128, 0.373);
     border-bottom: 5px solid rgba(128, 128, 128, 0.373);
 }
 
-.text-gold{
+.text-gold {
     color: #D99904;
 }
 
-/* @media only screen and (max-width: 320px) {
-    .
-} */
+@media only screen and (max-width: 320px) {
+    .mini-title-container {
+        width: 75% !important;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .text-responsive {
+        display: none !important;
+    }
+
+}

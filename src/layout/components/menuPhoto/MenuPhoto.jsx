@@ -1,32 +1,77 @@
-import React from 'react';
+import React from "react";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
-import { Pagination } from 'swiper';
+import { Pagination } from "swiper";
+import "./MenuPhoto.css"
 
 const MenuPhoto = () => {
-    return (
-		<div className="my-5">
+	return (
+		<div className="my-5 mx-2">
 			<Swiper
-				spaceBetween={30}
+				spaceBetween={10}
 				slidesPerView={4}
 				pagination={{
 					dynamicBullets: true,
 				}}
 				modules={[Pagination]}
 			>
-				<SwiperSlide className="bg-success py-5 mb-5">Slide 1</SwiperSlide>
-				<SwiperSlide className="bg-success py-5 mb-5">Slide 2</SwiperSlide>
-				<SwiperSlide className="bg-success py-5 mb-5">Slide 3</SwiperSlide>
-				<SwiperSlide className="bg-success py-5 mb-5">Slide 4</SwiperSlide>
-				<SwiperSlide className="bg-success py-5 mb-5">Slide 1</SwiperSlide>
-				<SwiperSlide className="bg-success py-5 mb-5">Slide 2</SwiperSlide>
-				<SwiperSlide className="bg-success py-5 mb-5">Slide 3</SwiperSlide>
-				<SwiperSlide className="bg-success py-5 mb-5">Slide 4</SwiperSlide>
-				<SwiperSlide className="bg-success py-5 mb-5">Slide 1</SwiperSlide>
-				<SwiperSlide className="bg-success py-5 mb-5">Slide 2</SwiperSlide>
-				<SwiperSlide className="bg-success py-5 mb-5">Slide 3</SwiperSlide>
-				<SwiperSlide className="bg-success py-5 mb-5">Slide 4</SwiperSlide>
+				<SwiperSlide className="img-fluid">
+					<img
+						className="rounded-4 mb-5 mt-2 responsive-img-menu"
+						src="https://i.postimg.cc/90YG6hwQ/slide1.jpg"
+						alt="photo"
+					/>
+				</SwiperSlide>
+				<SwiperSlide className="img-fluid">
+					<img
+						className="rounded-4 mb-5 mt-2 responsive-img-menu"
+						src="https://i.postimg.cc/8z5h0xpT/slide2.jpg"
+						alt="photo"
+					/>
+				</SwiperSlide>
+				<SwiperSlide className="img-fluid">
+					<img
+						className="rounded-4 mb-5 mt-2 responsive-img-menu"
+						src="https://i.postimg.cc/fT5c5MhH/slide3.jpg"
+						alt="photo"
+					/>
+				</SwiperSlide>
+				<SwiperSlide className="img-fluid">
+					<img
+						className="rounded-4 mb-5 mt-2 responsive-img-menu"
+						src="https://i.postimg.cc/bwBQcLrk/slide4.jpg"
+						alt="photo"
+					/>
+				</SwiperSlide>
+				<SwiperSlide className="img-fluid">
+					<img
+						className="rounded-4 mb-5 mt-2 responsive-img-menu"
+						src="https://i.postimg.cc/90YG6hwQ/slide1.jpg"
+						alt="photo"
+					/>
+				</SwiperSlide>
+				<SwiperSlide className="img-fluid">
+					<img
+						className="rounded-4 mb-5 mt-2 responsive-img-menu"
+						src="https://i.postimg.cc/8z5h0xpT/slide2.jpg"
+						alt="photo"
+					/>
+				</SwiperSlide>
+				<SwiperSlide className="img-fluid">
+					<img
+						className="rounded-4 mb-5 mt-2 responsive-img-menu"
+						src="https://i.postimg.cc/fT5c5MhH/slide3.jpg"
+						alt="photo"
+					/>
+				</SwiperSlide>
+				<SwiperSlide className="img-fluid">
+					<img
+						className="rounded-4 mb-5 mt-2 responsive-img-menu"
+						src="https://i.postimg.cc/bwBQcLrk/slide4.jpg"
+						alt="photo"
+					/>
+				</SwiperSlide>
 			</Swiper>
 		</div>
 	);

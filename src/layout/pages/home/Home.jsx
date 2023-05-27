@@ -5,12 +5,14 @@ import MenuPhoto from '../../components/menuPhoto/MenuPhoto';
 
 const Home = () => {
     return (
-        <div>
-            <Banner></Banner>
-            <OrderOnline></OrderOnline>
-            <MenuPhoto></MenuPhoto>
-        </div>
-    );
+		<div>
+			<Banner></Banner>
+			<OrderOnline></OrderOnline>
+			<div className='mx-auto' style={{maxWidth : "1200px"}}>
+				<MenuPhoto></MenuPhoto>
+			</div>
+		</div>
+	);
 };
 
 export default Home;

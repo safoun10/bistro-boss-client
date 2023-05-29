@@ -2,7 +2,7 @@ import React from "react";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
-import { Pagination } from "swiper";
+import { Autoplay, Pagination } from "swiper";
 import "./MenuPhoto.css";
 
 const MenuPhoto = () => {
@@ -14,7 +14,10 @@ const MenuPhoto = () => {
 				pagination={{
 					dynamicBullets: true,
 				}}
-				modules={[Pagination]}
+				autoplay={{
+					delay: 2000,
+				}}
+				modules={[Pagination, Autoplay]}
 			>
 				<SwiperSlide className="img-fluid">
 					<img
@@ -33,7 +36,7 @@ const MenuPhoto = () => {
 						alt="photo"
 					/>
 					<div className="text-in-photo text-center text-fancy">
-						salads
+						pizza
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="img-fluid">
@@ -43,7 +46,7 @@ const MenuPhoto = () => {
 						alt="photo"
 					/>
 					<div className="text-in-photo text-center text-fancy">
-						salads
+						soup
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="img-fluid">
@@ -53,7 +56,7 @@ const MenuPhoto = () => {
 						alt="photo"
 					/>
 					<div className="text-in-photo text-center text-fancy">
-						salads
+						desert
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="img-fluid">
@@ -73,7 +76,7 @@ const MenuPhoto = () => {
 						alt="photo"
 					/>
 					<div className="text-in-photo text-center text-fancy">
-						salads
+						pizza
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="img-fluid">
@@ -83,7 +86,7 @@ const MenuPhoto = () => {
 						alt="photo"
 					/>
 					<div className="text-in-photo text-center text-fancy">
-						salads
+						soup
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="img-fluid">
@@ -93,7 +96,7 @@ const MenuPhoto = () => {
 						alt="photo"
 					/>
 					<div className="text-in-photo text-center text-fancy">
-						salads
+						desert
 					</div>
 				</SwiperSlide>
 			</Swiper>
